@@ -7,6 +7,7 @@ var APN = 'ProjectOverview';
 
 GVADev.require('GVADev.app.BaseApp');
 GVADev.require('GVADev.app.' + APN + '.view');
+GVADev.require('GVADev.util.Brief');
 
 /**
  * @class ProjectOverview - the app

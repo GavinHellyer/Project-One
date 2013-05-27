@@ -16,6 +16,7 @@ GVADev.preLoadFns.push(function() { //Extend OUAnywhere (run code after inherita
         GVADev.app[APN].prototype.Views.prototype.Home = function() {
             GVADev.con('View: Home');
             
+            this.brief = new GVADev.util.Brief({id: 'brief'});
             //document.body.innerHTML = 'Home!';
         };
     };
